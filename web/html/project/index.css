@@ -1,0 +1,200 @@
+@import url("normalize.css");
+
+body {
+  margin: 0px auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+
+em {
+  font-family: 'Roboto';
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.main_header {
+  width: 100%;
+  height: 84px;
+  background-color: #007765;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.nav_container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_container {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.link {
+  color: #fff;
+
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.section1 {
+  margin-top: 84px;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  background-image: url(res/f0c0c5a5f4c8e134a751795ba5497b38.png);
+  background-size: cover;
+  background-position: center center;
+  text-decoration: none;
+}
+
+.section2 {
+  padding-bottom: 92px;
+  background-color: #fff;
+}
+
+.section4 {
+  padding-bottom: 92px;
+  background-color: #fff;
+}
+
+.teamsection {
+  background-color: #eee;
+}
+
+.main_title {
+  color: #fff;
+
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.titles {
+  color: #007765;
+  margin-top: 48px;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.title_team {
+  color: #007765;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.figure {
+  margin: 0; /*Расстояние от края элемента до края другог элемента*/
+  padding: 0; /*Устанавливает значение полей вокруг содержимого элемента*/
+  display: flex; /*Определяет как элемент должен быть показан в документе*/
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.text_section2 {
+  color: #000;
+
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section3 {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  background-image: url(res/image2.png);
+  background-size: cover;
+  background-position: center center;
+  text-decoration: none;
+}
+
+.section3_message {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+
+.text_section4 {
+  color: #000;
+
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.logo {
+  float: left; /*Остальные элементы будут обтекать его с других сторон*/
+  padding-right: 48px; /*Устанавливает значение поля от правого края содержимого элемента*/
+}
+
+.p1 {
+  display: flex;
+}
+
+.section5 {
+  background-color: #eee; /*Определяет цвет фона элемента*/
+  padding-top: 58px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+  padding-bottom: 112px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
+}
+
+.name {
+  font-weight: 700; /*Устанавливает насыщенность шрифта*/
+  font-size: 24px; /*Определяет размер шрифта элемента*/
+  line-height: 28px; /*Задаёт высоту строки текста*/
+  color: #007765; /*Определяет цвет текста элемента*/
+}
+
+.img {
+  width: 350px; /*Устанавливает ширину содержимого элемента*/
+  height: 283px; /*Устанавливает высоту содержимого элемента*/
+  text-align: center; /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+  display: flex; /*Определяет как элемент должен быть показан в документе*/
+  flex-flow: column wrap;
+  align-items: center; /*Выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении*/
+  padding-bottom: 55px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
+}
