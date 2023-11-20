@@ -19,6 +19,8 @@ size_t read_size() {
 void array_int_fill( int64_t* array, size_t size ) {
     for (size_t i = 0; i < size; i++ ) {
         array[i] = read_int64();
+        printf("tet");
+        printf("test2")
     }
 }
 
