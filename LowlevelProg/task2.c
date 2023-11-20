@@ -18,4 +18,5 @@ int main() {
     int64_t array[5] = {5, 2, 1, 6, 3};
     int64_t* min = array_int_min(array, size);
     printf( " %" PRId64, *min );
+    printf(" ");
 }
