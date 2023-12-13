@@ -14,7 +14,7 @@ struct heap_string halloc( const char* s ){
     struct heap_string heapstr;
     int64_t length = 0;
     length = strlen(s);
-    newString = malloc(sizeof(char) * len);
+    newString = malloc(sizeof(char) * length);
 
     strcpy(newString, s);
     heapstr.addr = newString;
