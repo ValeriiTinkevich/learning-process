@@ -6,6 +6,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-a.exe
-b.exe
-e.exe
+
+# Executions
+.exe
+exe/
