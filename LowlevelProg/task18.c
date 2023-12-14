@@ -43,11 +43,3 @@ struct list* list_iterate(int64_t init, size_t sz, int64_t(f)(int64_t))
     return head;
 }
 
-int main() {
-    struct list* new = createList(2, 5, func);
-    while(new) {
-        printf("% " PRId64, new->value);
-        new = new->next;
-    }
-
-}
