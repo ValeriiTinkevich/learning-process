@@ -72,8 +72,3 @@ void move(struct robot* robot, enum move_dir dir) {
         cb_list = cb_list->next;
     }
 }
-
-
-int main() {
-
-}
